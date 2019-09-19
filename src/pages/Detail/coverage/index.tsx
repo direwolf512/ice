@@ -26,16 +26,6 @@ export default (props) => {
 	const [allChoiceData, setAllChoiceData] = useState(initChoice);
 	const [areasData, setAreasData] = useState(getAreas());
 	const [showId, setShowId] = useState();
-	const [previousProvinces, setPreviousProvinces] = useState({
-		0: undefined,
-		1: undefined,
-		2: undefined,
-		3: undefined,
-		4: undefined,
-		5: undefined,
-		6: undefined
-	});
-	const [previousCities, setPreviousCities] = useState();
 	const { areaChoice, setAreaChoice, wholecountry, setWholecountry, areaModuleChoice, setAreaModuleChoice, ifWholecountryChoice, setIfWholecountryChoice } = props;
 
 	useEffect(() => {
