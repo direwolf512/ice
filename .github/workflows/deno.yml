@@ -16,7 +16,7 @@ on:
 
 jobs:
   build:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     strategy:
       matrix: 
         node-version: [14.x]
@@ -30,4 +30,4 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
 
       - run: yarn install
-      - run: npm run build
+      - run: yarn run build
