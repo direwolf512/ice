@@ -21,7 +21,7 @@
     "ice-plugin-fusion": "^0.1.4",
     "ice-plugin-moment-locales": "^0.1.0",
     "ice-scripts": "^2.0.0",
-    "stylelint": "^10.1.0"
+    "stylelint": "^15.10.1"
   },
   "scripts": {
     "start": "ice-scripts dev",
